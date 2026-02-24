@@ -1,6 +1,6 @@
 ## How it works
 
-Preprocessing: iven `A + B`, compute per-column digit sums `s_i = a_i + b_i` (values 0–18). No carries, just raw sums. This is a pure function with no learned components.
+Preprocessing: given `A + B`, compute per-column digit sums `s_i = a_i + b_i` (values 0–18). No carries, just raw sums. This is a pure function with no learned components.
 
 Interleaving: the sequence alternates digit sums and output slots:
 
