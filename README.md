@@ -17,3 +17,5 @@ So, the transformer only has to learn a lookup table of around 38 entries. Given
 It uses 507 params and takes 250 epochs for this model to get over 99% val accuracy on the hold out validation set of 10k examples.
 
 The 488 param architecture takes around 400 epochs to get over 99% val accuracy.
+
+446 param also gets over 99% val accuracy
